@@ -3,9 +3,9 @@ import logging
 
 import openai
 
-from tg.config import DevConfig
+from config import DevConfig
 
-from ..text_to_speech.text_to_speech import Speech
+from text_to_speech.text_to_speech import Speech
 from .utils import CircularConversation, contains_delimiter
 
 openai.api_key = DevConfig.API_KEY

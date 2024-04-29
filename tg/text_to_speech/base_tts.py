@@ -6,7 +6,7 @@ from typing import List
 from pydub import AudioSegment
 from pydub.playback import play
 
-from tg.config import DevConfig
+from config import DevConfig
 
 logger = logging.getLogger("base-tts")
 

@@ -4,8 +4,8 @@ from typing import List
 
 import edge_tts
 
-from tg.config import DevConfig
-from tg.text_to_speech.base_tts import BaseSpeech
+from config import DevConfig
+from text_to_speech.base_tts import BaseSpeech
 
 LANG = DevConfig.AZURE_VOICE_LANG
 logger = logging.getLogger("azure-ttl")

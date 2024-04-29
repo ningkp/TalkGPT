@@ -1,7 +1,7 @@
 import asyncio
 
-from tg.chatgpt import ask
-from tg.speech_to_text import listen, select_microphone
+from chatgpt import ask
+from speech_to_text import listen, select_microphone
 
 
 def run():

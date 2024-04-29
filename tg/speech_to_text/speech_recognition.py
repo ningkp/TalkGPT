@@ -3,7 +3,7 @@ import logging
 import speech_recognition as sr
 from dotenv import set_key
 
-from tg.config import DevConfig
+from config import DevConfig
 
 match DevConfig.STT_CHOICE:
     case "WHISPER":

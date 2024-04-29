@@ -1,4 +1,4 @@
-from tg.config import DevConfig
+from config import DevConfig
 
 match DevConfig.TTS_CHOICE:
     case "EDGE":
